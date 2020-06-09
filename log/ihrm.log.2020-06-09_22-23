@@ -1,0 +1,12 @@
+2020-06-09 22:23:21,507 INFO [root] [__init__.py(<module>:9)] - 日志会不会打印
+2020-06-09 22:23:22,665 INFO [root] [test_employee.py(test01_login_success:34)] - 返回的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '6e63bdcd-bc60-4aaf-8114-0e3dd72bb431'}
+2020-06-09 22:23:22,665 INFO [root] [test_employee.py(test01_login_success:40)] - 保存到全局变量的请求头为: {'Content-Type': 'application/json', 'Authorization': 'Bearer 6e63bdcd-bc60-4aaf-8114-0e3dd72bb431'}
+2020-06-09 22:23:22,759 INFO [root] [test_employee.py(test02_add_emp:54)] - 添加员工的结果为: {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-06-09 22:23:49,098 INFO [root] [__init__.py(<module>:9)] - 日志会不会打印
+2020-06-09 22:23:50,190 INFO [root] [test_employee.py(test01_login_success:34)] - 返回的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9059cc81-e0e1-453f-a48c-cfcf17e20108'}
+2020-06-09 22:23:50,190 INFO [root] [test_employee.py(test01_login_success:40)] - 保存到全局变量的请求头为: {'Content-Type': 'application/json', 'Authorization': 'Bearer 9059cc81-e0e1-453f-a48c-cfcf17e20108'}
+2020-06-09 22:23:50,296 INFO [root] [test_employee.py(test02_add_emp:54)] - 添加员工的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1270361070069874688'}}
+2020-06-09 22:23:50,297 INFO [root] [test_employee.py(test02_add_emp:58)] - 保存到全局变量中的id为: 1270361070069874688
+2020-06-09 22:23:50,383 INFO [root] [test_employee.py(test03_select_emp:69)] - 查询员工的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1270361070069874688', 'mobile': '1993294342', 'username': '薰勋俺爸爸勋衣草草草1245331', 'password': 'e598fef2d2f3d2757d7f4110ff7606d6', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1063678149528784896', 'timeOfEntry': '2020-05-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-05-30T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试部', 'roleIds': [], 'staffPhoto': None}}
+2020-06-09 22:23:50,470 INFO [root] [test_employee.py(test04_modify_emp:80)] - 修改员工的结果为: {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-06-09 22:23:50,579 INFO [root] [test_employee.py(test05_delete_emp:91)] - 删除员工的结果为: {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}

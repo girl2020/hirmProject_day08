@@ -1,0 +1,15 @@
+2020-06-09 22:26:43,142 INFO [root] [__init__.py(<module>:9)] - 日志会不会打印
+2020-06-09 22:26:44,178 INFO [root] [test_employee.py(test01_login_success:34)] - 返回的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '7cf6a201-e13d-403d-ad84-a023e77dc228'}
+2020-06-09 22:26:44,178 INFO [root] [test_employee.py(test01_login_success:40)] - 保存到全局变量的请求头为: {'Content-Type': 'application/json', 'Authorization': 'Bearer 7cf6a201-e13d-403d-ad84-a023e77dc228'}
+2020-06-09 22:26:44,285 INFO [root] [test_employee.py(test02_add_emp:54)] - 添加员工的结果为: {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-06-09 22:26:44,379 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'ec65092e-b340-4fd2-b426-7a9215115767'}
+2020-06-09 22:26:44,491 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 22:26:44,569 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 22:26:44,665 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 22:26:44,752 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 22:26:44,854 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 22:26:44,934 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-06-09 22:26:45,026 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '188f0a24-1f75-429c-990d-baa44c68fb67'}
+2020-06-09 22:26:45,122 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 22:26:46,209 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-06-09 22:26:46,305 INFO [root] [test_login.py(test01_login:153)] - 登录的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}

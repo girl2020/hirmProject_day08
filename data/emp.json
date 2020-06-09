@@ -1,0 +1,29 @@
+{
+  "add_emp": {
+    "username": "薰勋哈哈哈爸勋衣草草草1245331",
+    "mobile": "1343294342",
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "http_code": 200
+  },
+  "select_emp": {
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "http_code": 200
+  },
+  "modify_emp": {
+    "username": "猪爸哈哈哈呀呀呀万维网哎哎",
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "http_code": 200
+  },
+  "delete_emp": {
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "http_code": 200
+  }
+}
